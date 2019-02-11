@@ -1,0 +1,86 @@
+#house{
+    height: 300px;
+    width: 400px;
+    background:green; 
+    border: 3px #000000 solid;
+    border-top-color: green;
+}
+
+#roof{
+    width: 0;
+    height: 0;
+    border-bottom: 100px solid green;
+    border-left: 200px solid transparent;
+    border-right: 200px solid transparent;
+    position: relative;
+}
+#door{
+    width:100px;
+    height:150px;
+    background:blue;
+    border: 3px #000 solid;
+    position: relative;
+    left: 150px;
+    top: -97px;
+}
+
+#handle{
+    width: 20px;
+    height: 20px;
+    background: yellow;
+    border-radius: 50%;
+    border: 3px #000 solid;
+    position: relative;
+    top: 60px;
+}
+
+#window1{
+    width: 75px;
+    height: 75px;
+    background:yellow;
+    border: 3px #000 solid;
+    position: relative;
+    left:155px;
+    top:-20px;
+}
+
+#window2{
+    width: 75px;
+    height: 75px;
+    background:yellow;
+    border: 3px #000 solid;
+    position: relative;
+    left: 280px;
+    top:50px;
+}
+
+#window3{
+    width: 75px;
+    height: 75px;
+    background:yellow;
+    border: 3px #000 solid;
+    position: relative;
+    left:20px;
+    bottom:30px;
+    
+}
+
+#window1 span, #window2 span, #window3 span{
+    font-size: 146px;
+    color: #000;
+    text-align: center;
+    position: absolute;
+    top: -47px;
+    right: -4px;
+}
+
+#rooftilesl{
+    width: 220px;
+    height: 15px;
+    transform: rotate(30deg);
+    background: red;
+    border: 3px #000 solid;
+    position: relative;
+    left:200px;
+    top:50px;
+}
